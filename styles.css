@@ -1,0 +1,50 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+/* You can add global styles to this file, and also import other style files */
+.owl-prev,.owl-next {	
+	width: 30px;
+    height: 30px; 
+    color:#2858F3 !important;
+	position: absolute !important;
+	transform: translate(-50%, -50%);
+	background: #2858F342 !important;
+	border-radius: 100% !important;
+	opacity: 0.8;
+}
+
+.owl-prev{ top: 40% !important;left: 0px !important;}
+
+.owl-next{ top: 40% !important;right:-30px !important;}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background: #2858F3;
+}
+.owl-carousel .owl-item img.main-slider {
+	display: block;
+	width: 90%; 
+	margin: 0px auto !important;
+}
+
+.conference-container .card , .sponsor-container .card{
+	width: 90%;
+	margin: 0px auto;
+}
+
+.notification .card {
+	max-height: 396px;	
+}
+.notification .card-body{
+	overflow-y:auto;
+}
+
+.btn-sycnenvent-priamry{
+	background: #2766F0;
+	border-radius: 7.56428px;
+	border: 1px solid #2766F0;
+}
+
+.btn-sycnenvent-priamry:hover {
+	color: #fff;
+	background-color: #1c4baf;
+	border-color: #1c4baf;
+}
+@import url("assets/css/responsive.css");
